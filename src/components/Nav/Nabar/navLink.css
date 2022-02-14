@@ -1,0 +1,52 @@
+.navLink{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none
+}
+
+.navLink a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+    height: 100%;
+    display: block
+}
+
+.navLink a:hover,
+.navLink a:active,
+.navLink a.active{
+    border-bottom: 4px solid #40a4cb;
+    background-color: #8f5c2c;
+    color: #fff
+}
+
+@media (min-width: 500px) {
+    .NavigationItem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+    
+    .NavigationItem a {
+        color: white;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        background-color: #8F5C2C;
+        border-bottom: 4px solid #40A4C8;
+        color: white;
+    }
+}
+
+
